@@ -29,8 +29,9 @@ body {
   z-index: 1;
 }
 
+/*se cambio el color del background de la barra de navegacion*/
 nav {
-  background-color: rgb(172, 28, 28);
+  background-color: rgb(167, 56, 5);
   padding: 1px;
   width: 100%;
   display: flex;
@@ -49,7 +50,7 @@ nav a {
   font-family: 'Rubik Doodle Shadow', sans-serif;
 }
 
-/* Estilo para las secciones debajo de la imagen */
+/* se cambio la imagen del background */
 section {
   text-align: left;
   color: rgb(0, 0, 0);
@@ -57,7 +58,7 @@ section {
   font-size: 38px;
   font-family: 'Rubik Doodle Shadow', sans-serif;
   margin: 0;
-  background-image: url('https://img.freepik.com/foto-gratis/textura-papel-cuadrados_23-2147786544.jpg?size=626&ext=jpg&ga=GA1.1.1687694167.1703721600&semt=ais');
+  background-image: url('https://img.freepik.com/foto-gratis/espacio-diseno-papel-textura-fondo_53876-42312.jpg');
   background-size: contain;
   background-position: center;
 }
@@ -96,17 +97,24 @@ section {
 h2 {
   text-align: center;
 }
+
+/*se cambio el width de la imagen de la barra de navegacion por 380*/
+
 .navbar img[src="img/shapes/BARRA DE N.png"] {
   height: 90px; 
-  width: 700px; 
+  width: 380px; 
 }
 
 .link {
-  color: rgb(255, 2, 2);
+  color: rgb(255, 0, 0);
 }
-.rifle {
-  color: rgb(38, 9, 117);
+
+/*se cambio el color de los titulos de las armas*/
+h3 {
+  color: rgb(85, 6, 6);
 }
+
 h2 {
-  font-family: ;
+  color: rgb(202, 124, 5);
+  font-family: 'Bangers', cursive;
 }
